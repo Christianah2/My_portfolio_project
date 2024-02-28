@@ -1,0 +1,202 @@
+/* deals with everything written within the body tag.*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c4bbbb;
+}
+
+h1 {
+  margin: 50px;
+  text-shadow: 2px 2px 4px red;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-family: "Courier New", Courier, monospace;
+  color: chartreuse;
+}
+
+h3 {
+  color: #333;
+}
+
+h5 {
+  margin: 0px;
+  text-shadow: 2px 2px 4px red;
+  font-size: 32px;
+  font-family: "Courier New", Courier, monospace;
+  color: blue;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  color: palevioletred;
+}
+
+b {
+  font-size: xx-large;
+}
+
+header {
+  background-color: #f2f2f2; /* backgrond color of the header area.*/
+  color: black; /* font color of the texts inside the header box.*/
+  padding: 20px; /* determines how wide the header area will be.*/
+  text-align: center; /* aligns the text to the center*/
+}
+
+section {
+  padding: 50px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/*media quaries for responsive design*/
+/*@media(max-width: 768px){
+    section{
+        padding: 30px;
+    }
+    /*adjust other styles as needed*/
+/*}*/
+
+.container-fluid {
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 0;
+}
+
+.container {
+  background-color: dark;
+  color: light;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.d-flex {
+  justify-content: center;
+  margin-bottom: 14px;
+  color: red;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.btn {
+  border: 1px solid blue;
+  border-radius: 4px;
+  color: blue;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.btn-twitter,
+.btn-facebook,
+.btn-instagram,
+.btn-linkedin {
+  background-color: white;
+  margin-right: 2px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 50px;
+  color: aqua;
+}
+
+/* Style the profile image */
+.profile-image {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 200px;
+}
+
+/* Style the name and typed text */
+.name {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: #333;
+}
+
+.typed-text {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #777;
+}
+
+/* Style the buttons */
+.button {
+  background-color: #f44336;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/*.title {
+  position: relative;
+  margin-right: 50px;
+  content: "";
+
+  align-items: center;
+
+  height: 13px;
+}*/
+
+h2 {
+  color: rgb(89, 89, 239);
+}
+
+/*.contact-form {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.form {
+  position: relative;
+  margin-right: 50px;
+}*/
